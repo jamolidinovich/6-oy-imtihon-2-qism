@@ -1,0 +1,61 @@
+.text {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.wrappperr {
+  max-width: 1150px;
+  margin: 0 auto;
+
+  width: 900px;
+}
+.text button {
+  width: 172px;
+  height: 72px;
+  background: #057aff;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 35px;
+  font-family: sans-serif;
+  transition: all 0.5s;
+}
+.text button:hover {
+  background: rgb(1, 1, 197);
+}
+.text h1 {
+  font-weight: 700;
+  font-size: 3.75rem;
+  color: rgb(73, 73, 112);
+  margin-left: 200px;
+}
+.twoo h3 {
+  margin-top: 15px;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  font-weight: 400;
+  color: rgb(65, 65, 78);
+  margin-left: 30px;
+  text-align: center;
+}
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.dark-mode #wrap {
+  background-color: #272935;
+  color: #ffffff;
+}
+.dark-mode #wrap h3 {
+  color: white;
+}
+.dark-mode button {
+  background-color: #ff7ac6;
+}

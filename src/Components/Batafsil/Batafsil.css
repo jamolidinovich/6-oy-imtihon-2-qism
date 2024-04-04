@@ -1,0 +1,100 @@
+.Card1 {
+  max-width: 1150px;
+  justify-content: center;
+  position: absolute;
+}
+.productdata {
+  width: 1066px;
+  height: 653px;
+}
+
+.Card {
+  max-width: 1150px;
+  position: relative;
+  background-color: brown;
+  display: flex;
+}
+
+.cardimg {
+  width: 500px;
+  height: 394px;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  margin-top: 35px;
+}
+
+.cardtitle {
+  margin-left: 550px;
+  margin-top: 30px;
+  font-size: 40px;
+  color: #394e6a;
+  font-family: sans-serif;
+}
+
+.cardcompany {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #c7c9d1;
+  margin-left: 550px;
+  margin-top: -345px;
+}
+
+.cardprice {
+  margin-left: 550px;
+  font-size: 1.25rem;
+  color: #395495;
+  margin-top: 13px;
+  display: inline-block;
+}
+
+.cardDesc {
+  margin-left: 550px;
+  width: 544px;
+  tab-size: 4;
+  line-height: 2;
+  font-variation-settings: "wght" 625;
+}
+
+.cardcolor {
+  display: inline-block;
+  color: #394e6a;
+  margin-top: 240px;
+  margin-left: -66px;
+}
+
+.cardammount {
+  margin-top: 250px;
+  margin-left: 550px;
+}
+.red {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  margin-left: -60px;
+  position: absolute;
+  margin-top: 260px;
+  display: inline-block;
+  background-color: #33ff57;
+}
+.red2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  margin-left: -30px;
+  position: absolute;
+  margin-top: 260px;
+  display: inline-block;
+  background-color: #3366ff;
+}
+
+.cardselect {
+  border-color: #463aa1;
+  width: 320px;
+  padding: 10px;
+  height: 48px;
+  border: 1px solid #463aa1;
+  position: absolute;
+  margin-top: 310px;
+  margin-left: -68px;
+}

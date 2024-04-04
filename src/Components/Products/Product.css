@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.form input {
+  width: 200px;
+  height: 32px;
+  padding: 10px;
+  outline-color: blue;
+  border: 1px solid lightgray;
+  margin-top: -10px;
+  border-radius: 12px;
+  margin-left: 120px;
+  align-items: center;
+}
+.wrappper {
+  width: 1220px;
+  margin: 0px auto;
+}
+.form {
+  margin-top: 50px;
+  padding: 50px;
+  display: flex;
+  margin-left: -100px;
+  margin-top: 50px;
+}
+
+.select {
+  width: 230px;
+  height: 32px;
+  padding: 0px 32px 0px 12px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  margin-top: -10px;
+  cursor: pointer;
+}
+.selectt {
+  width: 230px;
+  height: 32px;
+  /* padding-top: 10px; */
+  margin-top: -10px;
+  padding: 0px 32px 0px 12px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.loader {
+  margin-left: 500px;
+}
+.btn-onee {
+  width: 221px;
+  height: 37px;
+  font-size: 15px;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  color: white;
+  background: #057aff;
+  border-radius: 6px;
+  margin-bottom: 40px;
+  position: absolute;
+  margin-left: 130px;
+  margin-top: -60px;
+}
+.btn-onee:hover {
+  background: #c149ad;
+}
+.btn-two {
+  width: 221px;
+  margin-left: 15px;
+  height: 37px;
+  font-size: 15px;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  color: white;
+  background: #c149ad;
+  border-radius: 6px;
+  margin-top: -60px;
+  margin-left: 380px;
+  position: absolute;
+}
+.btn-two:hover {
+  background: #057aff;
+}
+.buttons {
+  margin-top: 40px;
+  margin-left: 380px;
+}
+.cardlar img {
+  width: 313px;
+  background: none;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  padding: 10px;
+}
+.cardlar {
+  width: 344px;
+  height: 332px;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-bottom: 20px;
+}
+.cardlar:hover {
+  transform: scale(1.01);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+.loading {
+  font-size: 40px;
+}
+.cardlar h3 {
+  color: rgb(102, 102, 102);
+  margin-top: 40px;
+  font-family: sans-serif;
+}
+.cardlar span {
+  color: #463aa1;
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 14px;
+}
+.cardssss {
+  flex-wrap: wrap;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+  margin-bottom: -300px;
+}
+p {
+  position: absolute;
+  margin-top: 17px;
+  color: #394e6a;
+  display: flex;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+.filtir {
+  max-width: 1050px;
+  background-color: #f0f6ff;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.products {
+  color: #394e9a;
+  margin-left: 120px;
+  margin-top: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e2e8f4;
+  width: 990px;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode {
+  background-color: #000000;
+  color: #fffefe;
+}
+
+.dark-mode .filtir {
+  background-color: #181920;
+}
+
+.dark-mode .form .select {
+  color: #ffffff;
+  background-color: #272935;
+  border: none;
+}
+
+.dark-mode .form .selectt {
+  background-color: #272935;
+  border: none;
+  color: #ffffff;
+}
+.dark-mode .form .input-one {
+  background-color: #272935;
+  border: none;
+  color: #ffffff;
+}
+
+.dark-mode p {
+  color: "#F8F8F2";
+}
+
+.dark-mode #range {
+  background-color: #c149ad;
+}
+.dark-mode .buttons p {
+  color: #ffffff;
+}
+
+.dark-mode .buttons h3 {
+  color: #ffffff;
+}
+
+.dark-mode .buttons h4 {
+  color: white;
+}
+
+.dark-mode .buttons .btn-onee {
+  border: none;
+  color: #000000;
+}
+
+.dark-mode .buttons .btn-two {
+  background-color: #ffb86b;
+  border: none;
+  color: #000000;
+}
+
+.dark-mode .cardssss h3 {
+  color: rgb(255, 255, 255);
+}
+.dark-mode .products {
+  border-bottom: 2px solid #09090c;
+  color: white;
+}
+
+.dark-mode .free {
+  color: #057aff;
+}
